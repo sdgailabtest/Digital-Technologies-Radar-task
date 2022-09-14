@@ -1,7 +1,3 @@
-# UNDP Radar Application
-
-Code base seated on repo [UNDP Radar](https://github.com/SDG-AI-Lab/Digital_Technologies_Radar).
-
 ## Available Scripts
 
 In the project directory, you can run:
