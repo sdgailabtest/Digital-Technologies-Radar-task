@@ -23,11 +23,13 @@ class VolunteerContent {
   static readonly BlessingO: VolunteerContentChild = {
     name: 'Blessing Ojediran',
     background:
-      'She has develop the mockups for the website. The website has modelled by using these mockups.',
-    quote: '',
-    imageSrc: '',
-    linkedinLink: '',
-    githubLink: 'https://github.com/uxfoodie'
+      'UX designer from Nigeria. Have a Bachelor of Nursing Science degree',
+    quote:
+      'I have been designing since 2021 and I had a great time working on this project. It is my dream to build useful products. I hope lives are improved using this radar.',
+    imageSrc:
+      'https://github.com/SDG-AI-Lab/Course-Images/blob/main/20220507_103527.jpg?raw=true',
+    linkedinLink: 'https://www.linkedin.com/in/versatileblessing',
+    githubLink: 'Behance.net/uxfoodie'
   } as const;
 
   static readonly EyoabT: VolunteerContentChild = {
@@ -67,11 +69,14 @@ class VolunteerContent {
   } as const;
 
   static readonly FranciscoJ: VolunteerContentChild = {
-    name: 'Francisco José Peñarrubia',
-    background: 'He has actively developed frontend components for the radar.',
-    quote: ' ',
-    imageSrc: '',
-    linkedinLink: '',
+    name: 'Francisco Peñarrubia',
+    background:
+      'Telecommunications Engineer, involved in Open Source GIS software development for more than 20 years',
+    quote:
+      "As an engineer, I like to build new things, and learn. Working on TechRadar project allowed me to learn by doing, meet very talented people and help a nice community in UN's Family",
+    imageSrc:
+      'https://github.com/SDG-AI-Lab/Course-Images/blob/main/Black%20and%20White%20Minimalist%20Company%20Profile%20-%20Business%20Presentation%20(1).jpg?raw=true',
+    linkedinLink: 'https://www.linkedin.com/in/fpenarru/',
     githubLink: 'https://github.com/fpenarru'
   } as const;
 
@@ -117,6 +122,30 @@ class VolunteerContent {
       'https://user-images.githubusercontent.com/28465079/165503859-2abf042e-f9df-4794-833e-1934c6b0d074.jpg',
     linkedinLink: 'https://www.linkedin.com/in/zekariasteshome/',
     githubLink: 'https://github.com/lordakarias'
+  } as const;
+
+  static readonly JacksonO: VolunteerContentChild = {
+    name: 'Jackson Onyango',
+    background:
+      'Software Engineer with 6 years experience in full-stack web development (PREN, MERN, RoR, Python/Django/Flask, PHP/WordPress). Interested in  Machine Learning and AI',
+    quote:
+      'I am excited about combining technology with engineering to push boundaries. I have enjoyed working on the frontend of the TechRadar project it gave me a chance to put to use my UI knowledge and I also got to a learn new UI component library',
+    imageSrc:
+      'https://github.com/SDG-AI-Lab/Course-Images/blob/main/Jackson.jpeg?raw=true',
+    linkedinLink: 'www.linkedin.com/in/jackson-o-08b9b9240',
+    githubLink: 'https://github.com/jacksono'
+  } as const;
+
+  static readonly HakanA: VolunteerContentChild = {
+    name: 'Hakan Aksuman',
+    background:
+      'Currently full stack developer previously civil engineer, participated in data driven web development projects for more than 1 year',
+    quote:
+      'As a data and web development enthusiast, this project broadened my horizon in terms of implementing up to date technologies with a great team effort.',
+    imageSrc:
+      'https://github.com/SDG-AI-Lab/Course-Images/blob/main/photoUnvHakanAksuman.jpg?raw=true',
+    linkedinLink: 'www.linkedin.com/in/hakanaksuman',
+    githubLink: 'https://github.com/haksuman'
   } as const;
 
   static readonly BeniamS: VolunteerContentChild = {
@@ -166,8 +195,7 @@ class VolunteerContent {
 
   static readonly VioletteH: VolunteerContentChild = {
     name: 'Violette Heron',
-    background:
-      'She has develop the mockups for the website. The website has modelled by using these mockups.',
+    background: 'She has actively supported the deployment of the project.',
     quote: '',
     imageSrc: '',
     linkedinLink: 'https://www.linkedin.com/',
@@ -176,8 +204,7 @@ class VolunteerContent {
 
   static readonly NajiA: VolunteerContentChild = {
     name: 'Naji Alhusami',
-    background:
-      'He has actively developed both backend and frontend components for the radar.',
+    background: 'He has actively supported the deployment of the project.',
     quote: '',
     imageSrc: '',
     linkedinLink: 'https://www.linkedin.com/[removed]',
@@ -196,6 +223,8 @@ export const volunteerContentList: ReadonlyArray<VolunteerContentChild> = [
   VolunteerContent.SvenS,
   VolunteerContent.VladyslavaD,
   VolunteerContent.ZekariasT,
+  VolunteerContent.JacksonO,
+  VolunteerContent.HakanA,
 
   VolunteerContent.BeniamS,
   VolunteerContent.AhmedA,

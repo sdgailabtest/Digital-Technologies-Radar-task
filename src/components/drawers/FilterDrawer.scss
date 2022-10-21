@@ -51,6 +51,7 @@ header {
 .option-button {
   display: flex;
   flex-direction: row-reverse;
+  z-index: 1;
 }
 
 @media only screen and (max-width: 921px) {
@@ -67,4 +68,7 @@ header {
     margin-top: 80px !important;
     left: 0;
   }
+}
+.filterWrapper {
+  padding-right: 10px;
 }

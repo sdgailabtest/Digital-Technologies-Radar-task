@@ -45,18 +45,25 @@ export const RadarView: React.FC<{ loading: boolean }> = ({ loading }) => {
 
   return (
     <>
-      <SimpleGrid alignItems='center' columns={{ sm: 1, md: 1, lg: 2 }}>
-        <Box>
-          <Heading
-            fontSize={30}
-            color='DarkSlateGray'
-            textAlign='center'
-            p={15}
-            paddingTop={15}
-            className='radarTitle'
-          >
-            Frontier Technology Radar for Disaster Risk Reduction (FTR4DRR)
-          </Heading>
+      <div className='radarTitleContainer'>
+        <Heading
+          fontSize={30}
+          color='DarkSlateGray'
+          textAlign='center'
+          p={15}
+          paddingTop={15}
+          className='radarTitle'
+        >
+          Frontier Technology Radar for Disaster Risk Reduction (FTR4DRR)
+        </Heading>
+        <div className='titleFiller' />
+      </div>
+      <SimpleGrid
+        alignItems='center'
+        columns={{ sm: 1, md: 1, lg: 2 }}
+        className='radarContainer'
+      >
+        <Box className='radarComponentsContainer'>
           <Box className='radarComponents'>
             {loading && <WaitingForRadar size='620px' />}
             {!loading && <Radar />}
@@ -77,7 +84,7 @@ export const RadarView: React.FC<{ loading: boolean }> = ({ loading }) => {
             </TabList>
             <TabPanels overflowY='auto'>
               <TabPanel overflowY='auto'>
-                <ScrollableDiv maxHeight={460}>
+                <ScrollableDiv maxHeight={720}>
                   <BlipListMui />
                 </ScrollableDiv>
               </TabPanel>
@@ -85,7 +92,7 @@ export const RadarView: React.FC<{ loading: boolean }> = ({ loading }) => {
                 <TechDescription />
               </TabPanel>
               <TabPanel overflowY='auto'>
-                <ScrollableDiv maxHeight={460}>
+                <ScrollableDiv maxHeight={720}>
                   <BlipView />
                 </ScrollableDiv>
               </TabPanel>
@@ -107,5 +114,5 @@ const TabOuterBoxProps: BoxProps = {
   mr: '10',
   p: '5',
   maxWidth: '500px',
-  height: '575px'
+  height: '800px'
 };
